@@ -1,0 +1,70 @@
+#container{
+    gap: 20px;
+}
+
+#welcomeU{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#logoutBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#panel{
+    border: 10px solid blue;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#prodContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: auto;
+    height: 30vh;
+}
+
+.product{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.h2{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    border: 4px solid rgb(221, 166, 63);
+}
+
+#addProdForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 50%; */
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}

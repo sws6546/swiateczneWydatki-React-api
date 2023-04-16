@@ -1,0 +1,52 @@
+body * {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form{
+    border: 10px solid rgb(112, 89, 74);
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(224, 211, 193);
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#gradient{
+    position: absolute;
+    top: -150;
+    left: -150;
+    width: 300vw;
+    height: 300vh;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 255), white);
+    animation: gradient 3s linear infinite;
+    z-index: -1;
+}
+
+@keyframes gradient{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
